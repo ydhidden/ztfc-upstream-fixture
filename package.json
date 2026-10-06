@@ -1,0 +1,9 @@
+{
+  "name": "ztfc-upstream-fixture",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Test fixture for the ai-dossier zero-trust contribution probe",
+  "license": "MIT",
+  "type": "module",
+  "scripts": { "test": "node --test" }
+}
