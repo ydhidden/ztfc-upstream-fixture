@@ -10,3 +10,7 @@ test('includes the end value (regression for #1)', () => {
   assert.deepEqual(range(1, 3), [1, 2, 3]);
   assert.deepEqual(range(2, 2), [2]);
 });
+
+test('single negative value', () => {
+  assert.deepEqual(range(-1, -1), [-1]);
+});
